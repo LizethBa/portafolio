@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Proyectos</title>
+  <link href="css/output.css" rel="stylesheet">
+  <link rel="icon" href="img/iconproyect.png">
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mis Proyectos</h1>
+      <nav>
+        <a href="index.html" class="text-gray-700 hover:text-gray-900 mr-4 hover:underline transition duration-300">Inicio</a>
+        <a href="#" class="text-gray-700 hover:text-gray-900 hover:underline transition duration-300">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container mx-auto p-6">
+    <section>
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Proyectos Destacados</h2>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Proyecto 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden project-card hover:scale-105 transform transition duration-300">
+            <img src="img/rovercrop.png" alt="Imagen del Proyecto" class="w-full h-auto object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-gray-800">Simulador de Rovers</h3>
+              <p class="text-gray-600 mt-2">
+                Software desarrollado en Python, utilizando Flet y Pygame, diseñado para simular el comportamiento de un rover agrícola en dos entornos específicos mediante modelos matemáticos.
+              </p>
+              <a href="https://github.com/DeivTor/RoverCrop.git" class=" font-size-1.5rem font-weight-600 ">
+                <button class="desplazar">Ver mas</button>
+              </a>
+            </div>
+          </div>
+      
+        <!-- Proyecto 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden project-card hover:scale-105 transform transition duration-300">
+          <img src="img/makeup.webp" alt="Imagen del Proyecto" class="w-full h-auto object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-800">CRUD Tienda de maquillaje</h3>
+            <p class="text-gray-600 mt-2">
+            Software desarrollado en SpringBoot de Java para la gestion de peoductos clientes y provedores de una tienda, utlizando JPA y una base de datos en memoria.
+            </p>
+            <a href="https://github.com/Lizbarretor/MakeupStore.git" class=" font-size-1.5rem font-weight-600 ">
+              <button class="desplazar">Ver mas</button>
+            </a>
+          </div>
+        </div>
+      
+        <!-- Proyecto 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden project-card hover:scale-105 transform transition duration-300">
+          <img src="img/fake.png" alt="Imagen del Proyecto" class=" w-full h-auto object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-800">API Fake datos falsos</h3>
+            <p class="text-gray-600 mt-2">
+                Software diseñado para generar datos falsos de forma aleatoria, como nombres, apellidos, emails, sexo y avatar.
+            </p>
+            <a href="https://fake-phi.vercel.app/" class=" font-size-1.5rem font-weight-600 ">
+              <button class="desplazar">Ver mas</button>
+            </a>
+          </div>
+        </div>
+      </div>      
+    </section>
+  </main>
+  <footer class="mt-10 text-center text-gray-700">
+    <div class="flex justify-center space-x-6 mb-4">
+      <a href="https://github.com/Lizbarretor" target="_blank" class="group">
+        <img src="img/github.svg" alt="GitHub" class="w-8 h-8 transition-transform transform group-hover:scale-110">
+      </a>
+      <a href="https://www.linkedin.com/in/lizeth-barreto-79824a311/" target="_blank" class="group">
+        <img src="img/linkedin.svg" alt="LinkedIn" class="w-8 h-8 transition-transform transform group-hover:scale-110">
+      </a>
+      <a href="https://wa.me/qr/XKOWC3LXHNK7H1" target="_blank">
+        <img src="img/whatsapp.svg" class="w-8 h-8">
+      </a>
+    </div>
+    © 2025 Barreto Lizeth.
+  </footer>
+</body>
+</html>
