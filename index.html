@@ -10,25 +10,21 @@
 </head>
 
 <body class="bg-gradient-to-r from-gray-100 to-gray-300 font-sans">
-  <div class="container mx-auto p-6 min-h-screen flex flex-col justify-between">
+  <div class="container mx-auto p-6 min-h-screen flex flex-col ">
     <!-- Header -->
-    <header class="flex items-center justify-between mb-10">
-      <img src="img/Logosample.png" alt="Profile Image"
-        class="rounded-full shadow-xl w-64 relative z-10 hover:scale-105 transform transition duration-300">
-      <div class="">
-        <a href="mailto:barretoliz522@gmail.com" class=" font-bold text-gray-700 hover:underline">
-          barretoliz522@gmail.com
-        </a>
-        
+    <header class="bg-white shadow-md p-4">
+      <div class="container mx-auto p-6 flex justify-between items-center">
+        <img src="img/Logosample.png" alt="Profile Image" class="">
+        <nav>
+          <a href="/proyectos.html" class=" text-1x1 font-bold text-gray-700 hover:text-gray-900 mr-4 hover:underline transition duration-300">Proyectos</a>
+          <a href="#resumen" class=" text-1xl font-bold text-gray-700 hover:text-gray-900 mr-4 hover:underline transition duration-300">Resumen</a>
+          <a href="#tecnologias" class="text-1xl font-bold text-gray-700 hover:text-gray-900 mr-4 hover:underline transition duration-300">Tecnologías</a>
+        </nav>
       </div>
-      <nav class="space-x-6">
-        <a href="/proyectos.html"
-          class="text-gray-700 hover:text-black hover:underline transition duration-300">Proyectos</a>
-        <a href="#resumen" class="text-gray-700 hover:text-black hover:underline transition duration-300">Resumen</a>
-        <a href="#sobre mi" class="text-gray-700 hover:text-black hover:underline transition duration-300">Tecnologías</a>
-      </nav>
     </header>
-
+    <a href="mailto:barretoliz522@gmail.com" class=" text-center p-4 font-bold text-gray-700 hover:underline">
+      barretoliz522@gmail.com
+    </a>
     <!-- Main Content -->
     <main class="flex flex-col-reverse md:flex-row items-center gap-10">
       <!-- Text Section -->
@@ -41,13 +37,11 @@
           Desarrolladora de software Junior.
         </p>
         <p class="text-2x1 text-gray-600 mb-6 animate-fade-in-down">
-          
         </p>
-        <a href="https://wa.me/qr/XKOWC3LXHNK7H1" class="">
+        <a href="https://github.com/DeivTor/RoverCrop.git" class="">
           <button class="cerrar">Hablemos</button>
         </a>
       </div>
-
       <!-- Image Section -->
       <div class="flex-1 flex justify-center">
         <div class="relative">
@@ -58,17 +52,17 @@
     </main>
     <section id="resumen">
       <h2 class="mt-10 text-center text-3xl font-bold text-gray-800 mb-6">Resumen</h2>
-      <div class="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
-        <p class="text-2x1 text-gray-600 mb-6 animate-fade-in-down">
+      <div class="">
+        <p class="text-2x1 justify-center text-gray-600 mb-6 animate-fade-in-down">
           Experiencia como desarrolladora junior. He trabajado con herramientas y tecnologías como Spring Boot, JavaScript, Python con Flet, SQL y el desarrollo
           de APIs usando Postman. Estoy en constante aprendizaje y disfruto crear soluciones eficientes y bien estructuradas para resolver problemas reales. Me apasiona la creación de soluciones tecnológicas eficientes, 
           bien estructuradas y adaptadas a las necesidades del usuario tambien, nanejo Git para el control de versiones y trabajo colaborativo en proyectos, asegurando un flujo de desarrollo organizado.
         </p>
       </div>
     </section>
-    <section id="sobre mi">
+    <section id="tecnologias">
       <h2 class="mt-10 text-center text-3xl font-bold text-gray-800 mb-6">Tecnologías</h2>
-      <div class="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+      <div class="">
         <p class=" text-center text-2x1 text-gray-600 mb-6 animate-fade-in-down">
            Spring Boot, JavaScript, Node.js, MySQL, Python, APIs REST, Git.
         </p>
