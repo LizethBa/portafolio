@@ -1066,8 +1066,8 @@ button{
 
 /* Boton desplazar */
 .desplazar{
-  --color: #4d5566d7;
-  --hover: #858799;
+  --color: #222425d7;
+  --hover: #a7a4b1af;
   color: var(--color);
   background: none;
   border: 2px solid;
